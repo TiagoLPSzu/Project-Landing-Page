@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    margin: 0 16em;
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
@@ -12,7 +11,9 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    margin: 0 16em;
     margin-top: 2em;
+    
 }
 
 ul {
@@ -34,6 +35,7 @@ a {
 .hero {
     display:flex;
     gap: 8em;
+    margin: 0 16em;
 }
 
 .hero-left {
@@ -54,7 +56,9 @@ h2 {
 .examples {
     display: flex;
     justify-content: center;
-    gap: 4em
+    gap: 4em;
+    flex-wrap: wrap;
+    margin: 0 16em;
 }
 
 .box {
@@ -68,4 +72,23 @@ h2 {
     width: 150px;
     border: 3px solid black;
     border-radius: 1em
+}
+
+.quote-section {
+    display: flex;
+    margin: 0;
+    background-color: lightgrey;
+    justify-content: center;
+    align-content: center;
+    padding: 6em;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.author {
+    text-align: end;
 }
