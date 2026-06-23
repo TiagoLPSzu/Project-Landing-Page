@@ -51,6 +51,8 @@ a {
 
 h2 {
     text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .examples {
@@ -59,6 +61,7 @@ h2 {
     gap: 4em;
     flex-wrap: wrap;
     margin: 0 16em;
+    margin-bottom: 6em;
 }
 
 .box {
