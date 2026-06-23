@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
-    display: flex;
-    flex-direction: column;
 }
 
 .header {
@@ -38,14 +37,12 @@ a {
     margin: 0 16em;
 }
 
-.hero-left {
+.hero-left, .hero-right{
     justify-content:center;
     align-content: center;
 }
 
 .hero-right {
-    justify-content: center;
-    align-content: center;
     padding: 16em;
 }
 
@@ -87,11 +84,45 @@ h2 {
 }
 
 .quote-box {
-    display: flex;
-    flex-direction: column;
     width: 200px;
 }
 
 .author {
     text-align: end;
+}
+
+.call {
+    display: flex;
+    margin: 6em 16em;
+    justify-content: center;
+    gap: 6em;
+    background-color: blue;
+    border-radius: 1em;
+    padding: 2em
+}
+
+.call-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+button {
+    padding: 8px 2em;
+    border-radius: 8px;
+    background-color: blue;
+    border: 0;
+}
+
+.call-button {
+    border: 2px solid white;
+    align-self: center;
+}
+
+.footer {
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    padding: 2em
 }
