@@ -5,12 +5,14 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 1em 16em;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 1em 16em;
 }
 
 ul{
@@ -27,4 +29,20 @@ li {
 
 a{
     text-decoration: none;
+}
+
+.hero {
+    display:flex;
+    gap: 8em;
+}
+
+.hero-left{
+    justify-content:center;
+    align-content: center;
+}
+
+.hero-right {
+    justify-content: center;
+    align-content: center;
+    padding: 16em;
 }
