@@ -7,112 +7,166 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 0 16em;
-    margin-top: 2em;
-    
+    margin: 1em 16em;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 ul {
+    display: flex;
     margin: 0;
     padding: 0;
-    display: flex;
-    gap: 16px;
+    gap: 1em;
 }
 
 li {
     list-style: none; 
-    
 }
 
 a {
     text-decoration: none;
 }
 
-.hero {
+.hero-info {
     display:flex;
-    gap: 8em;
-    margin: 0 16em;
+    gap: 4em;
+    margin: 8em 16em;
 }
 
-.hero-left, .hero-right{
-    justify-content:center;
-    align-content: center;
+.hero-left {
+    width: 28em;
+    padding: 1em 0;
+}
+
+.main-hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-text {
+    font-size: 18px;
+    color:#F9FAF8;
+    margin-bottom: 16px;
 }
 
 .hero-right {
-    padding: 16em;
+    background-color: #E5E7EB;
+    flex: auto;
 }
 
-h2 {
+.examples-header {
     text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin: 2em;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .examples {
     display: flex;
     justify-content: center;
-    gap: 4em;
-    flex-wrap: wrap;
-    margin: 0 16em;
     margin-bottom: 6em;
+    gap: 4em;
 }
 
 .box {
-    text-align: center;
-    max-width: 150px;
     justify-content: center;
+    max-width: 170px;
 }
 
 .box-image {
-    height: 150px;
-    width: 150px;
-    border: 3px solid black;
-    border-radius: 1em
+    border-radius: 1em;
+    margin-bottom: 8px;
+    border: 4px solid #3882F6;
+    height: 170px;
+    width: 170px;
+}
+
+.box-text {
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
 }
 
 .quote-section {
     display: flex;
-    margin: 0;
-    background-color: lightgrey;
     justify-content: center;
     align-content: center;
-    padding: 6em;
+    margin: 0;
+    padding: 8em;
+    background-color: #E5E7EB;
 }
 
 .quote-box {
-    width: 200px;
+    width: 52em;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 10px;
 }
 
 .author {
     text-align: end;
+    color:#1F2937;
+    font-weight: 900;
+    font-size: 24px;
 }
 
 .call {
     display: flex;
-    margin: 6em 16em;
     justify-content: center;
-    gap: 6em;
-    background-color: blue;
+    margin: 6em 16em;
     border-radius: 1em;
-    padding: 2em
+    padding: 3em 6em;
+    gap: 8em;
+    background-color: #3882F6;
 }
 
 .call-left {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    
+}
+
+.call-header {
+    color:#F9FAF8;
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.call-text {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 button {
-    padding: 8px 2em;
+    padding: 9px 36px;
     border-radius: 8px;
-    background-color: blue;
     border: 0;
+    width: 142px;
+    height: 42px;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: 900;
+    color:#F9FAF8
 }
 
 .call-button {
@@ -121,8 +175,9 @@ button {
 }
 
 .footer {
-    display: flex;
-    background-color: blue;
-    justify-content: center;
-    padding: 2em
+    text-align: center;
+    padding: 2em;
+    background-color: #1F2937;
+    font-size: 18px;
+    color:#F9FAF8
 }
