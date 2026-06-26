@@ -56,7 +56,7 @@ a {
 .hero-info {
     display:flex;
     justify-content: space-between;
-    gap: 4em;
+    gap: 8em;
     margin: 8em 16em;
 }
 
@@ -70,13 +70,13 @@ a {
     color: #F9FAF8;
     font-weight: 900;
     line-height: 1em;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .hero-text {
     font-size: 18px;
     color:#F9FAF8;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .hero-right {
