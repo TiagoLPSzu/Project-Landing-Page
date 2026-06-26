@@ -16,7 +16,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 1em 16em;
+    margin: 24px 16em;
 }
 
 .logo-group {
@@ -62,12 +62,20 @@ a {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    line-height: 1em;
+    margin-bottom: 16px;
 }
 
 .hero-text {
     font-size: 18px;
     color:#F9FAF8;
     margin-bottom: 16px;
+}
+
+.log-in {
+    border: 1px solid #F9FAF8;
+    padding: 3px 12px;
+    border-radius: 8px;
 }
 
 .hero-right {
